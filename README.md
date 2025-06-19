@@ -52,7 +52,18 @@ mv IMDB_four_genre_larger_plot_description.csv data/
 
 ### ▶️ Rodar o Modelo
 
-python main.py
+python train_text_genre_classifier.py --csv_path "path/to/IMDB_four_genre_larger_plot_description.csv" --epochs 8 --batch_size 16 --max_len 256
+
+### ▶️ Modo interativo opcional
+
+Para utilizar o modo interativo, adicione a flag --infer ao comando:
+
+python train_text_genre_classifier.py --csv_path "path/to/IMDB_four_genre_larger_plot_description.csv" --epochs 8 --batch_size 16 --max_len 256 --infer
+
+Exemplo de Sinopse para Inferência
+> Sinopse de Exemplo: > After realizing that her fear of rejection by her parents caused her to hurt Riley and will cause her to lose Abby, Harper finally tells the truth to her parents, confirming that she is a lesbian. Predictably, both Ted and Tipper do not react well to this news. This inspires Sloane to reveal her own secret that she and her husband are getting divorced, and even Jane tells her parents how neglected she felt throughout the years. Harper goes after Abby to apologize, confessing that she truly loves her and wants to build a life with her. Touched by her words, Abby forgives her and they share a long and passionate kiss.
+
+Cole essa sinopse no modo interativo para testar as predições do modelo.
 
 ---
 
