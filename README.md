@@ -69,8 +69,6 @@ Cole essa sinopse no modo interativo para testar as predições do modelo.
 
 ## 🚀 Próximos Passos
 
-✅ Modalidade Texto (sinopse com BERT)
-
 🔜 Modalidade Imagem (cartaz com CNN)
 
 🔜 Classificação Multimodal (fusão texto + imagem)
