@@ -33,7 +33,7 @@ Utilizamos o dataset multimodal do Kaggle:
 🎯 [IMDB Multimodal Vision and NLP Genre Classification](https://www.kaggle.com/datasets/zulkarnainsaurav/imdb-multimodal-vision-and-nlp-genre-classification)
 
 Para esta  entrega, utilizamos  o arquivo:
-    IMDB_four_genre_larger_plot_description.csv
+    IMDB_four_genre_larger_plot_description.csv  
     IMDB four_genre_posters
 
 ---
